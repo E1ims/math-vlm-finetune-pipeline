@@ -121,22 +121,4 @@ Below is the training loss curve over 1 epochs, demonstrating steady convergence
 
 ![Loss Curve](results/loss_curve.png)
 
-### 2. Quantitative Metrics
-*Data extracted from `results/summary_report.csv`*
-
-| Metric | Value | Description |
-| :--- | :--- | :--- |
-| **Final Training Loss** | `0.xxx` | (Update with value from results/loss logs) |
-| **Training Duration** | ~45 mins | On Google Colab T4 GPU |
-| **Inference Latency** | ~2.5s | Per image (batch size 1) |
-| **Adapter Size** | ~200 MB | 4-bit Quantized Weights |
-
-### 3. Qualitative Results (Inference)
-Actual samples from the `inference_results/` folder showing the model's ability to handle complex handwritten notation.
-
-| Input Image | Generated LaTeX | Rendered Output |
-| :---: | :--- | :---: |
-| ![Sample 1](inference_results/sample_0.png) | `V(\tilde{\beta})` | $V(\tilde{\beta})$ |
-| ![Sample 2](inference_results/sample_1.png) | `\int_{0}^{\infty} e^{-x^2} dx` | $\int_{0}^{\infty} e^{-x^2} dx$ |
-
 > **Note:** Full inference logs and raw `.tex` files are available in the [`inference_results/`](inference_results/) directory.
