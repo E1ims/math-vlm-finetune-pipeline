@@ -47,7 +47,7 @@ This project follows a "Library vs. Driver" design pattern for maximum maintaina
 ### 1. Clone the Repository
 ```bash
 
-git clone 
+git clone https://github.com/nabeelshan78/math-vlm-finetune-pipeline.git
 cd math-vlm-finetune-pipeline
 
 ```
@@ -70,14 +70,15 @@ huggingface-cli login
 
 ## Quick Start
 
-### 1. Configure Your RunOpen finetune_hub/config.py to set your parameters. The defaults are optimized for free Colab T4 GPUs.
+### 1. Configure Your Run
+Open finetune_hub/config.py to set your parameters. The defaults are optimized for free Colab T4 GPUs.
 ```python
 Python@dataclass
 class ModelConfig:
     dataset_id: str = "deepcopy/MathWriting-human"
     prompt_text: str = "Convert this handwritten math to LaTeX."
-    batch_size: int = 2          # Kept low for 16GB VRAM
-    gradient_accumulation_steps: int = 8  # Effective Batch Size = 16
+    batch_size: int = 4          # Kept low for 16GB VRAM
+    gradient_accumulation_steps: int = 4  # Effective Batch Size = 16
     num_train_epochs: int = 3
 ```
     
